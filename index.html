@@ -1,365 +1,488 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Document</title>
-  <style>
-    body{
-      background-color:rgb(234, 234, 244);
-    }
-    .main-section{
-      background-color:blue;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\class 29\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    }
-    /* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: blue;
-  height: 44px;
-  width:1160px;
-  margin-left: 156px;
-  font-size: 19px;
-  margin-top: 42px;
+    <title>portfolio of Nigar</title>
+     <style>
+        .main{
+            background-color:black;
+            height:650px;
+            width:1535px;
+            padding:12px;
+        }
+        .body1{
+            background-color: black;
+            height:20px;
+            width:500px;
+            float:right;
+            
+        }
+        .picture-section{
+            background-color: black;
+            color:white;
+        }
+        .combine-pic{
+          display:flex;
+          
+        }
+        .height-width-pic{
+          height: 80px;
+          width:100px;
+        }
+        .nigar-picture-sizing{
+            
+            padding:90px;
+            
+        }
+        .writting-part{
+          height:100px;
+            width:500px;
+            color:aliceblue;
+            padding:20px;
+            
+        }
+        .p1{
+          height:100px;
+            width:600px;
+        }
+        .right-corner{
+          float:right;
+          height:30px;
+          width:30px;
+          margin-left:600px;
+          padding:50px;
+          margin-right: 120px;
+        }
+        .styleofbutton{
+          border:10px solid rgb(194, 24, 24);
+          border-radius: 30px;
+          
+        }
+       
+        .divided{
+          margin-top:140px;
+          margin-left:300px;
+        }
+        .imagecard{
+          height:100px;
+          width:100px;
+        }
+        /*---cvpartstyle----*/
+        .b1{
+            height:690px;
+            width:1500px;
+            border: 5px solid black;
+            margin:5px;
+           background-image: url("./photo folder/bgcv.png");
+            
+        }
+        .main1{
+            height:600px;
+            width:800px;
+            background-color: whitesmoke;
+            border: 2px solid black;
+            margin-top:20px;
+            margin-left:300px;
+        }
+        .combination{
+            height:600px;
+            width:800px;
+            display:flex;
+            
+           
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .column1{background-color:gold;
+            height:80px;
+            width:30px;
+            
+            
+            margin-top: 50px;
+        }
+        .column3{
+            background-color:gold;
+            height:80px;
+            width:530px;
+            
+           
+            margin-top: 50px;
+            
+        }
+        .column2{
+            background-color:black;
+            color:white;
+            height:600px;
+            width:200px;
+            border:5px solid black;
+           
+            
+        }
+        .f1{
+            font-size: 12px;
+        }
+        .m1{
+            height:430px;
+            width:180px;
+            margin-top:5px;
+        }
+        /* end cv part style*/
+        /* start contact me */
+        .wrapingbrdrsec{
+          display:flex;
+          margin:auto;
+        }
+        .brdrsec1{
+           height:400px;
+            width:400px;
+            
+            
+            margin-top:200px;
+            margin-left:150px;
+            margin-right:40px;
+        }
+        .brdrsec2{
+            height:530px;
+            width:450px;
+            background-color: whitesmoke;
+            border: 2px solid black;
+            margin-top:70px;
+            margin-left:200px;
+        }
+        
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-    .navbar a {
-  float: left;
-  display: block;
+
+input[type=submit] {
+  background-color: #111212;
   color: white;
-  text-align: center;
-  padding: 14px 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a5aca6;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.bx1{
+  height:30px;
+  width:50px;
+  
+  background-color:whitesmoke ;
+}
+a{
+  color:white;
+  font-size: 14px;
+  margin-left: 3px;
   text-decoration: none;
-  
-}
-.right {
-  margin-top: 20px;
-  margin-right: 124px;
-  float: right;
-  font-size: 20px;
-  background-color: rgb(224, 106, 125);
-  
-}
-/*first section */
-.first-section{
-  background-color: blue;
-  height:677px;
-  width:1503px;
-  display: flex;
-}
-.image{
- float:right;
- margin-top: 153px;
- 
- margin-left:102px ;
- margin-right:140px ;
- 
-}
-.h3{
-  margin-top: 207px;
-  width:485px;
- margin-left:156px;
- font-size: 64px;
- 
- 
-}
-.btn-2{
-width:168px;
-height:44px;
-float: left;
-background-color:rgb(210, 99, 117);
 
-  
 }
-/*second section card section*/
-.second-section{
-  background-color: rgb(234, 234, 244);
-  margin-top: 70px;
-  margin-left: 180px;
-margin-right: 210px;
-}
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 30px;
-  margin-bottom: 27px;
-  
+.txt1{
+  color:white;
+  height:40px;
+  width:100px;
 }
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-/*third section*/
-.image2{
-  width:567px;
-  height:427px;
-  margin-top:165px;
-  margin-right:156px ;
-  margin-left: 69px;
-  
-}
-.third-section{
-  background-color: rgb(234, 234, 244);
-  height:677px;
-  width:1503px;
-  display: flex;
-}
-.h4{
-  margin-top: 207px;
-  width:466px;
- margin-left:156px;
- font-size: 64px;
- 
- 
-}
-.pp{
-  width:404px;
-  height:113px;
-  font-size: 12px;
-}
-.btn-3{
-width:173px;
-height:44px;
-float: left;
-background-color:rgb(229, 31, 147);
-  
-}
-/*footer*/
-.first-footer{
-  background-color: rgb(234, 234, 244);
-  margin-top: 158px;
-  margin-left: 475px;
-margin-right: 325px;
-}
-.logo{
-  align-items: center;
-  margin-left:156px;
-  margin-top: 20px;
-}
-
-.lp{
-  width:236px;
-  height:31px;
-  margin-top:20px;
-  margin-left:123px ;
-  margin-right: 123px;
-}
-
-  </style>
+    </style>
 </head>
 <body>
-  <section class="main-section">
-  <header class="header-section-criteria">
-
-  <div class="navbar"> 
-  <a>Home</a>
- <a>clubs</a>
-  <a>World cup 2023</a>
-  <a>upcomming matches</a>
-
-  <button class="right">log in</button>
-</div>
-
-  </header>
-</section>
-  <section class="first-section">
-    <h3 class="h3">conmebol copa America 2021
-      <button class="btn-2">watch live -></button>
-    </h3>
     
-   <div class="image">
-    <img src="images/rsz_3banner.png">
+    
+    <section class="main">
+        
+
+    <header>
+        <div class="body1">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+             
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  projects
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> Some Projects Display</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <img src="./photo folder/images.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title"> #Project 1</h5>
+                <p class="card-text">Jwellary shop website design which website provide multiple webpages.</p>
+                <a href="./photo folder/" class="btn btn-primary">PROJECT1 FOR DISPLAY</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <img src="./photo folder/images.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">#Project 2</h5>
+                <p class="card-text">Foodball website page design for foodball lovers</p>
+                <a href="./test1/index.html" class="btn btn-primary">PROJECT2 FOR DISPLAY</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <img src="./photo folder/images.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">CLICK FOR DISPLAY</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                
+  <img src="./photo folder/images.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">CLICK FOR DISPLAY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
   </div>
-  </section>
-  <!-- second section -->
-  <section class="second-section">
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-1.png" alt="Avatar" style="width:100%">
-          <h3>Nymar Jr</h3>
-          <p class="writing-part-alignment">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-2.png" alt="Avatar" style="width:100%">
-          <h3>Lionel Messi</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-3.png" alt="Avatar" style="width:100%">
-          <h3>Cristiano Ronaldo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-      
-      
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-4.png" alt="Avatar" style="width:100%">
-          <h3>Paulo Dybala</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-          
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-5.png" alt="Avatar" style="width:100%">
-          <h3>Mesut Ozil</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-         
-          
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-6.png" alt="Avatar" style="width:100%">
-          <h3>Mauro lcardi</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-         
-          
-        </div>
-      </div>
-      
-      
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-7.png" alt="Avatar" style="width:100%">
-          <h3>Di Maria</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-          
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-8.png" alt="Avatar" style="width:100%">
-          <h3>kylian Mbappe</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-          
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-9.png" alt="Avatar" style="width:100%">
-          <h3>Mohamed Salah</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-          
-        </div>
-      </div>
-      
-      
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-10.png" alt="Avatar" style="width:100%">
-          <h3>Harry Kane</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-11.png" alt="Avatar" style="width:100%">
-          <h3>Kevin De Bruyne</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/players/player-12.png" alt="Avatar" style="width:100%">
-          <h3>Philippe Coutinho</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. S</p>
-          
-        </div>
-      </div>
-      
-      
-      </div>
-    </div> 
-    
-    
-   
+</div>
 
-  </section>
-</section>
-<section class="third-section">
-  <h3 class="h4">All Highlights copa America 2021
-    <p class="pp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. SPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orciAenean nec lorem. In porttitor. Donec laoreet nonummy augue.Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-      </p>
-    <button class="btn-3">watch live -></button>
-  </h3>
-  
- <div class="image2">
-  <img src="images/rsz_match.png">
+                  <button class="styleofbutton">  <li>
+                    <a class="nav-link active" aria-current="page" href="./Cv.html">cv</a>
+                  </li></button>
+                 
+                 
+                  <button type="button" class="btn btn-secondary btn-lg m-3 me-2  "><a href="./btn3.html">Contact</a></button>
+
+
+                  
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary btn-lg m-3 me-1  "><a href="https://www.facebook.com
+  ">Other Activities</a></button>
+
+
+
+    </header>
+    <div>
+    <div class="combine-pic">
+    <div class="height-width-pic">
+    <img src="photo folder/left side (1).png">
+  </div>
+    <div class="nigar-picture-sizing">
+        <img src="photo folder/convocation_150x150.jpg">
+        <div class="writting-part">
+        <h1>NIGAR SULTANA TANSHI</h1>
+        <P class="p1">Hi Greetings! I’m Tanshi CSE Engineering  graduation completed  from Southern university Bangladesh. skilled up my career by web designing . Familiar to use Visual studio code, java script ,Notepad++ ,Figma, MySQL software. Easily cope with any other software also .I am front-developer too so i ensure that website visitors  can easily interact with the page.
+        </P>
+        </div>
+        
+      </div>
+      <div class="divided">
+               
+    <button type="button" class="btn btn-primary btn-lg d-flex justify-content-end m-3 me-2  "><i class="fab fa-facebook  me-2"><a href="https://www.facebook.com
+      ">Facebook</a></i></button>
+    <button type="button" class="btn btn-primary btn-lg d-flex justify-content-end m-3"><i class="fab fa-twitter"><a href="https://www.facebook.com
+      ">twitter</a></i></button>
+    <button type="button" class="btn btn-primary btn-lg d-flex justify-content-end m-3"><i class="fab fa-whatsapp"><a href="https://www.facebook.com
+      ">Whatsapp</a></i></button>
+    <button type="button" class="btn btn-primary btn-lg d-flex justify-content-end m-3"><i class="fab fa-viber"><a href="https://www.facebook.com
+      ">viber</a></i></button>
+    </div>
+</div>
+    </div>
+  </div>
+  </div>
+<div class="right-corner">
+  <img src="photo folder/right_side_150x150.png">
 </div>
 </section>
-  <footer class="first-footer">
-    <img src="images/rsz_logo.png">
-    <div class="logo">
-      <img src="images/rsz_dribbble.png">
-      <img src="images/rsz_instagram.png">
-      <img src="images/rsz_login.png">
-      <img src="images/rsz_twitter.png">
-      <img src="images/rsz_youtube.png">
-      
+<!--cvpart start-->
+    <section>
+      <div class="b1">
+        <div class="fs-4  fw-bold text-center mb-0 text-break fst-italic"> Curriculum vitae </div>
        
+
+<div class="main1 shadow">
+<div class="combination">
+    <div class="column1">
+
     </div>
-<p class="lp">Copyright © 2022 Football</p>
-  </footer>
+    <div class="column2">
+        <img src="./photo folder/mypic.jpg_2_150x150.jpg" class="rounded-circle ms-3" alt="...">
+        <div class="border border-white m1 ms-1">
+            <h1 class="fs-3 fw-bold ms-4 mt-4">SKILLS</h1>
+            <P class=" f1">❖ Communicative & adaptable.<br>
+                ❖ Solving power of web is rich.<br>
+                ❖ Front-end coding.<br>
+                ❖ Back-end coding.<br>
+                ❖ Testing tools.<br>
+                ❖ Designation capability is
+                Good.<br>
+                ❖ Dedicative for work.<br>
+                ❖ HTML,JAVASCRIPT,CSS,C++.<br>
+                ❖ MYSQL,FIREBASE(DATABASE)</P>
+                <h1 class="fs-3 fw-bold ms-2 mt-4">LANGUAGES</h1>
+                <div class="progress mb-2 ms-3 me-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-secondary" style="width: 100%">✓ ENGLISH</div>
+                  </div>
+                <div class="progress mb-2 ms-3 me-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-secondary" style="width: 100%">✓ BANGLA</div>
+                  </div>
+                <div class="progress mb-2 ms-3 me-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-secondary" style="width: 95%">✓ HINDI</div>
+                  </div>
+                <div class="progress mb-2 ms-3 me-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-secondary" style="width: 75%">✓ URDU</div>
+                  </div>
+                
+        </div>
+    </div>
+    <div class="column3">
+        <h1 class="text-center fs-4 mt-4 fw-bold">NIGAR SULTANA TANSHI</h1>
+        <div class="para1">
+        <p class="paragraph-portion1">
+            <h2 class="fs-3 fw-bold ms-3 mt-4">CAREER OBJECT</h2>
+            <P class="ms-3  f1 mt-0">I am looking for a challenging role in a well-known
+                organization where I can acquire new skills, broaden my
+                knowledge, and apply what I have learned.</P>
+            <h1 class="fs-3 fw-bold ms-3 mt-0">EDUCATIONAL QUALIFICATION</h1>
+            <P class="ms-3  f1"><b>.Secondary School Certificate/SSC</b><br>
+                Institutions : Agrabad Govt. Colony High School.<br>
+                Board : Chottogram.<br>
+                Group : Science.<br>
+                Result : 4.50<br>
+                Passing year : 2015<br>
+                <b>.Higher Secondary School Certificate/HSC</b><br>
+                Institutions : Chottogram Bondor college.<br>
+                Board : Chottogram.<br>
+                Group : Science.<br>
+                Result : 3.17<br>
+                Passing year : 2017</P>
+            
+            <h1 class="fs-3 fw-bold ms-3 ">COMMUNICATIONAL SKILL</h1>
+            <P CLASS="ms-3  f1 "> I have demonstrated strong leadership skills in managing a team of
+                administrative staff and supervising daily office operations. I have
+                experience in providing guidance and support to staff, setting
+                performance expectations and providing feedback, and addressing
+                issues as they arise.</P>
+            
+        </p>
+    </div>
+
+</div>
+</div>
+    </div>
+
+    </section>
+    <!--cvpartend-->
+
+    <!--contact me start-->
+    <section>
+      <div class="b1">
+        <div class="fs-1  fw-bold text-center mb-0 text-break fst-italic mt-3 "> CONTACT ME </div>
+       
+<div class="wrapingbrdrsec">
+<div class="brdrsec1 ">
+  <div class="ms-4 mt-5 rounded-circle fa-sharp d-flex bx1
+  ">
+    <div class=" fa-shap fa-solid fa-location-dot ms-3 mt-2"></div>
+    <div class="">
+<p class="fs-4 fw-bold ms-4">Address</p>
+<p class="fs-5 ms-4 txt1 ">Ukhiya,coxsBazar.</p>
+</div>
+  </div>
+  
+  <div class="ms-4 mt-5 rounded-circle fa-sharp d-flex bx1
+  ">
+    <div class="fa-solid fa-phone-volume ms-3 mt-2"></div>
+    <div class="">
+<p class="fs-4 fw-bold ms-4">phone</p>
+<p class="fs-5 ms-4 txt1 ">0153313##05</p>
+</div>
+  </div>
+  
+  <div class="ms-4 mt-5 rounded-circle fa-sharp d-flex bx1
+  ">
+    <div class="fa-solid fa-envelope ms-3 mt-2"></div>
+    <div class="">
+<p class="fs-4 fw-bold ms-4 ">Email</p>
+<p class="fs-5 ms-4 txt1 ">nigarsultanatanshi1999@gmail.com</p>
+</div>
+  </div>
+  
+  
+
+    </div>
+  <div class="brdrsec2">
+    <div class="container">
+      <div class="fw-bold fs-4">Masseges</div>
+      
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">Emails</label>
+        <input type="text" id="email" name="email" placeholder="Your Email..">
+    
+        
+    
+        <label for="criteria of project">Project Designation Requairment</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:60px"></textarea>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">project design file</label>
+          <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+       
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+    </div>
+        </section>
+        <!--contant me end-->
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
